@@ -3,6 +3,9 @@ import { ImageResponse } from "next/og"
 // Route segment config
 export const runtime = "edge"
 
+// Add this line for static export
+export const dynamic = "force-static"
+
 // Image metadata
 export const alt = "SpeedSOL - The Fastest Meme Token on Solana"
 export const size = {
