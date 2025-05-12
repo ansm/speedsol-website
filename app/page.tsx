@@ -519,7 +519,7 @@ export default function SpeedSolLanding() {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col items-center justify-center">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-K7LkoCAqqbvhrw5WRPhqhexeKwje3s.png"
+              src="images/logo.png"
               alt="SpeedSol Logo"
               width={80}
               height={80}
