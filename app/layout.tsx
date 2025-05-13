@@ -6,15 +6,18 @@ import { WalletContextProvider } from "@/components/wallet-provider"
 
 const inter = Inter({ subsets: ["latin"] })
 
+// Define the base URL for absolute URLs
+const baseUrl = "https://speedsoltoken.com"
+
 export const metadata: Metadata = {
   title: "SpeedSOL - The Fastest Meme Token on Solana",
   description:
     "SpeedSOL is a Solana-powered meme token built for ultra-fast microtransactions, tipping, and NFT rewards.",
-  keywords: ["SpeedSOL", "Solana", "micro tips", "crypto reward", "meme token", "cryptocurrency", "fast transactions", "NFT", "crypto"],
+  keywords: ["SpeedSOL", "Solana", "meme token", "cryptocurrency", "fast transactions", "NFT", "crypto"],
   authors: [{ name: "SpeedSOL Team" }],
   creator: "SpeedSOL Team",
   publisher: "SpeedSOL",
-  metadataBase: new URL("https://speedsoltoken.com"),
+  metadataBase: new URL(baseUrl),
   alternates: {
     canonical: "/",
   },
@@ -32,14 +35,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://speedsoltoken.com",
+    url: baseUrl,
     title: "SpeedSOL - The Fastest Meme Token on Solana",
     description:
       "SpeedSOL is a Solana-powered meme token built for ultra-fast microtransactions, tipping, and NFT rewards.",
     siteName: "SpeedSOL",
     images: [
       {
-        url: "/images/logo.png",
+        url: `${baseUrl}/social-share.png`, // Using absolute URL
         width: 1200,
         height: 630,
         alt: "SpeedSOL - The Fastest Meme Token on Solana",
@@ -52,7 +55,15 @@ export const metadata: Metadata = {
     description:
       "SpeedSOL is a Solana-powered meme token built for ultra-fast microtransactions, tipping, and NFT rewards.",
     creator: "@_Speed_SOL",
-    images: ["/images/logo.png"],
+    site: "@_Speed_SOL", // Added site parameter
+    images: [
+      {
+        url: `${baseUrl}/social-share.png`, // Using absolute URL
+        width: 1200,
+        height: 630,
+        alt: "SpeedSOL - The Fastest Meme Token on Solana",
+      },
+    ],
   },
   manifest: "/site.webmanifest",
   icons: {
@@ -89,6 +100,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Additional Twitter card meta tags for better compatibility */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@_Speed_SOL" />
+        <meta name="twitter:creator" content="@_Speed_SOL" />
+        <meta name="twitter:title" content="SpeedSOL - The Fastest Meme Token on Solana" />
+        <meta
+          name="twitter:description"
+          content="SpeedSOL is a Solana-powered meme token built for ultra-fast microtransactions, tipping, and NFT rewards."
+        />
+        <meta name="twitter:image" content={`${baseUrl}/social-share.png`} />
+        <meta name="twitter:image:alt" content="SpeedSOL - The Fastest Meme Token on Solana" />
+      </head>
       <body className={inter.className}>
         <WalletContextProvider>{children}</WalletContextProvider>
       </body>
