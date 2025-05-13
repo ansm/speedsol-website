@@ -18,10 +18,7 @@ export const contentType = "image/png"
 // Image generation
 export default async function Image() {
   // You could fetch the logo from your domain after deployment
-  // const logoUrl = "https://speedsoltoken.com/logo2.png"
-  const logoUrl = "http://localhost:3000/images/logo.png"
-
-
+  const logoUrl = "https://speedsoltoken.com/logo.png"
 
   return new ImageResponse(
     // ImageResponse JSX element
