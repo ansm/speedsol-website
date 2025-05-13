@@ -111,7 +111,7 @@ export default async function Image() {
             color: "#9ca3af",
           }}
         >
-          speedsol.vercel.app
+          speedsoltoken.com
         </div>
       </div>
     </div>,

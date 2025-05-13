@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   authors: [{ name: "SpeedSOL Team" }],
   creator: "SpeedSOL Team",
   publisher: "SpeedSOL",
-  metadataBase: new URL("https://speedsol.vercel.app"),
+  metadataBase: new URL("https://speedsoltoken.com"),
   alternates: {
     canonical: "/",
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://speedsol.vercel.app",
+    url: "https://speedsoltoken.com",
     title: "SpeedSOL - The Fastest Meme Token on Solana",
     description:
       "SpeedSOL is a Solana-powered meme token built for ultra-fast microtransactions, tipping, and NFT rewards.",
