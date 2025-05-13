@@ -77,7 +77,7 @@ export default async function Image() {
             textAlign: "center",
           }}
         >
-          SpeedSOL ($SPD)
+          SpeedSOL
         </div>
 
         {/* Subtitle */}

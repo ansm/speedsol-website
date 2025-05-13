@@ -7,7 +7,7 @@ import { WalletContextProvider } from "@/components/wallet-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "SpeedSOL ($SPD) - The Fastest Meme Token on Solana",
+  title: "SpeedSOL - The Fastest Meme Token on Solana",
   description:
     "SpeedSOL is a Solana-powered meme token built for ultra-fast microtransactions, tipping, meme contests, NFT rewards, and future ecosystem expansion.",
   keywords: ["SpeedSOL", "SPD", "Solana", "meme token", "cryptocurrency", "fast transactions", "NFT", "crypto"],
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://speedsol.vercel.app",
-    title: "SpeedSOL ($SPD) - The Fastest Meme Token on Solana",
+    title: "SpeedSOL - The Fastest Meme Token on Solana",
     description:
       "SpeedSOL is a Solana-powered meme token built for ultra-fast microtransactions, tipping, and NFT rewards.",
     siteName: "SpeedSOL",

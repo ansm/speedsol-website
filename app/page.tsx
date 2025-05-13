@@ -336,7 +336,7 @@ export default function SpeedSolLanding() {
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3">Meme Contests & Rewards</h3>
               <p className="text-sm md:text-base text-gray-400">
-                Participate in regular meme contests with $SPD token rewards. The best meme creators earn tokens and
+                Participate in regular meme contests with SpeedSOL token rewards. The best meme creators earn tokens and
                 exclusive NFTs, building a vibrant creative community.
               </p>
             </motion.div>
@@ -403,7 +403,7 @@ export default function SpeedSolLanding() {
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3">NFT Marketplace</h3>
               <p className="text-sm md:text-base text-gray-400">
-                The upcoming SpeedSOL NFT marketplace will allow creators to mint and trade meme-based NFTs using $SPD
+                The upcoming SpeedSOL NFT marketplace will allow creators to mint and trade meme-based NFTs using SpeedSOL
                 tokens, creating a unique digital art ecosystem within the community.
               </p>
             </motion.div>

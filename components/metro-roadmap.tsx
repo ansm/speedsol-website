@@ -204,7 +204,7 @@ export function MetroRoadmap() {
                       <>
                         <li className="flex items-start gap-2">
                           <span className="text-pink-500 font-bold">🌕</span>
-                          <span>Staking pools for $SPD holders</span>
+                          <span>Staking pools for SpeedSOL holders</span>
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="text-pink-500 font-bold">🌕</span>
@@ -565,7 +565,7 @@ export function MetroRoadmap() {
           <ul className="space-y-3 md:space-y-4 relative z-10">
             <li className="flex items-start gap-2 md:gap-3">
               <span className="text-pink-500 font-bold">🌕</span>
-              <span className="text-sm md:text-base">Staking pools for $SPD holders</span>
+              <span className="text-sm md:text-base">Staking pools for SpeedSOL holders</span>
             </li>
             <li className="flex items-start gap-2 md:gap-3">
               <span className="text-pink-500 font-bold">🌕</span>
