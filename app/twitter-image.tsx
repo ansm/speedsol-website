@@ -10,7 +10,7 @@ export const dynamic = "force-static"
 export const alt = "SpeedSOL - The Fastest Meme Token on Solana"
 export const size = {
   width: 1200,
-  height: 627, // Optimized for LinkedIn (slightly shorter than standard 630)
+  height: 630,
 }
 
 export const contentType = "image/png"
@@ -18,10 +18,8 @@ export const contentType = "image/png"
 // Image generation
 export default async function Image() {
   // You could fetch the logo from your domain after deployment
-  // const logoUrl = "https://speedsoltoken.com/logo2.png"
+//   const logoUrl = "https://speedsoltoken.com/images/logo.png"
   const logoUrl = "http://localhost:3000/images/logo.png"
-
-
 
   return new ImageResponse(
     // ImageResponse JSX element
@@ -39,7 +37,7 @@ export default async function Image() {
         position: "relative",
       }}
     >
-      {/* Gradient overlay - more subtle, professional look for LinkedIn */}
+      {/* Twitter-specific design with more emphasis on the logo */}
       <div
         style={{
           position: "absolute",
@@ -47,7 +45,7 @@ export default async function Image() {
           left: 0,
           right: 0,
           bottom: 0,
-          background: "radial-gradient(circle at center, rgba(6,182,212,0.12), transparent 70%)",
+          background: "radial-gradient(circle at center, rgba(29,161,242,0.15), transparent 70%)",
           zIndex: 1,
         }}
       />
@@ -62,21 +60,21 @@ export default async function Image() {
           zIndex: 2,
         }}
       >
-        {/* Logo */}
+        {/* Logo - larger for Twitter */}
         <img
-          src={logoUrl || "/placeholder.svg"}
+          src={logoUrl || "images/logo.png"}
           alt="SpeedSOL Logo"
-          width={180}
-          height={180}
+          width={240}
+          height={240}
           style={{ marginBottom: 30 }}
         />
 
-        {/* Title - more professional styling */}
+        {/* Title - Twitter style */}
         <div
           style={{
             fontSize: 64,
             fontWeight: "bold",
-            background: "linear-gradient(to right, #38bdf8, #818cf8, #c084fc)",
+            background: "linear-gradient(to right, #1DA1F2, #38bdf8, #818cf8)",
             backgroundClip: "text",
             color: "transparent",
             marginBottom: 20,
@@ -86,29 +84,16 @@ export default async function Image() {
           SpeedSOL
         </div>
 
-        {/* Subtitle with professional emphasis */}
+        {/* Subtitle with Twitter mention */}
         <div
           style={{
             fontSize: 32,
             color: "white",
             textAlign: "center",
             maxWidth: 900,
-            marginBottom: 20,
           }}
         >
-          The Fastest Meme Token on Solana
-        </div>
-
-        {/* Additional professional context for LinkedIn */}
-        <div
-          style={{
-            fontSize: 24,
-            color: "#d1d5db",
-            textAlign: "center",
-            maxWidth: 900,
-          }}
-        >
-          Built for ultra-fast microtransactions & community rewards
+        Built for ultra-fast microtransactions & community rewards
         </div>
       </div>
 

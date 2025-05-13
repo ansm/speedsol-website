@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "SpeedSOL - The Fastest Meme Token on Solana",
   description:
-    "SpeedSOL is a Solana-powered meme token built for ultra-fast microtransactions, tipping, meme contests, NFT rewards, and future ecosystem expansion.",
-  keywords: ["SpeedSOL", "SPD", "Solana", "meme token", "cryptocurrency", "fast transactions", "NFT", "crypto"],
+    "SpeedSOL is a Solana-powered meme token built for ultra-fast microtransactions, tipping, and NFT rewards.",
+  keywords: ["SpeedSOL", "Solana", "micro tips", "crypto reward", "meme token", "cryptocurrency", "fast transactions", "NFT", "crypto"],
   authors: [{ name: "SpeedSOL Team" }],
   creator: "SpeedSOL Team",
   publisher: "SpeedSOL",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "SpeedSOL",
     images: [
       {
-        url: "/images/speedsol-og.png",
+        url: "/social-share.png",
         width: 1200,
         height: 630,
         alt: "SpeedSOL - The Fastest Meme Token on Solana",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     description:
       "SpeedSOL is a Solana-powered meme token built for ultra-fast microtransactions, tipping, and NFT rewards.",
     creator: "@_Speed_SOL",
-    images: ["/images/logo.png"],
+    images: ["/social-share.png"],
   },
   manifest: "/site.webmanifest",
   icons: {
@@ -72,7 +72,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-    generator: 'v0.dev'
 }
 
 export const viewport: Viewport = {
