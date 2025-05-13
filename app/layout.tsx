@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "SpeedSOL",
     images: [
       {
-        url: "/social-share.png",
+        url: "/images/logo.png",
         width: 1200,
         height: 630,
         alt: "SpeedSOL - The Fastest Meme Token on Solana",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     description:
       "SpeedSOL is a Solana-powered meme token built for ultra-fast microtransactions, tipping, and NFT rewards.",
     creator: "@_Speed_SOL",
-    images: ["/social-share.png"],
+    images: ["/images/logo.png"],
   },
   manifest: "/site.webmanifest",
   icons: {
