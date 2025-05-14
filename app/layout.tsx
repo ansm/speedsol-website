@@ -3,6 +3,7 @@ import "./globals.css"
 import { Inter } from "next/font/google"
 import type { Metadata, Viewport } from "next"
 import { WalletContextProvider } from "@/components/wallet-provider"
+import Script from "next/script"  // Added this import
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -101,6 +102,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+       {/* Google Analytics Tag */}
+       <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-HQBSQQLJ5D" />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-HQBSQQLJ5D');
+            `,
+          }}
+        />
+
         {/* Additional Twitter card meta tags for better compatibility */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@_Speed_SOL" />
