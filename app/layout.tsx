@@ -4,6 +4,7 @@ import { Inter } from "next/font/google"
 import type { Metadata, Viewport } from "next"
 import { WalletContextProvider } from "@/components/wallet-provider"
 import Script from "next/script"  // Added this import
+import { FloatingCoins } from "@/components/floating-coins"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -130,6 +131,7 @@ export default function RootLayout({
         <meta name="twitter:image:alt" content="SpeedSOL - The Fastest Meme Token on Solana" />
       </head>
       <body className={inter.className}>
+        <FloatingCoins />
         <WalletContextProvider>{children}</WalletContextProvider>
       </body>
     </html>
