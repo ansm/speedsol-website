@@ -67,7 +67,7 @@ export default function SpeedSolLanding() {
           </div>
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="https://t.me/SpeedSOL_Project"
+              href="https://t.me/Speed_S0L"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm px-4 py-2 bg-gradient-to-r from-blue-700/50 to-purple-700/50 rounded-full transition-all duration-300 border border-blue-600/50 h-[38px] flex items-center z-10 hover:from-blue-600 hover:to-purple-600 hover:border-blue-500 hover:shadow-md hover:shadow-blue-500/20"
@@ -136,7 +136,7 @@ export default function SpeedSolLanding() {
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12 md:mb-16 px-2"
           >
             <a
-              href="https://t.me/SpeedSOL_Project"
+              href="https://t.me/Speed_S0L"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-base sm:text-lg hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300 flex items-center justify-center gap-2 z-10"
@@ -488,7 +488,7 @@ export default function SpeedSolLanding() {
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mb-8 md:mb-12">
               <a
-                href="https://t.me/SpeedSOL_Project"
+                href="https://t.me/Speed_S0L"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-base sm:text-lg hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300 flex items-center justify-center gap-2 z-10"
@@ -528,7 +528,7 @@ export default function SpeedSolLanding() {
 
             <div className="flex gap-4 md:gap-6 mb-6 md:mb-8">
               <a
-                href="https://t.me/SpeedSOL_Project"
+                href="https://t.me/Speed_S0L"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gray-900 flex items-center justify-center hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-600 transition-all duration-300 z-10"
